@@ -3595,3 +3595,13 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/* Center Trust Strip section heading */
+#shopify-section-trust-strip .multicolumn .title-wrapper-with-link,
+#shopify-section-trust-strip .title-wrapper,
+#shopify-section-trust-strip > .multicolumn > .page-width > .title-wrapper,
+#shopify-section-trust-strip h2.title,
+#shopify-section-trust-strip .multicolumn__title {
+  text-align: center !important;
+  justify-content: center !important;
+}
