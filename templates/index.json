@@ -15,6 +15,7 @@
         "slide1": {
           "type": "slide",
           "settings": {
+            "image": "",
             "heading": "India's Trusted Authorized Luminous Dealer",
             "subheading": "Genuine Products · Pan-India Warranty · Direct Dispatch from Our Authorized Store in Kotkapura, Punjab",
             "button_label": "Shop Inverters",
@@ -30,6 +31,7 @@
         "slide2": {
           "type": "slide",
           "settings": {
+            "image": "",
             "heading": "11 Million Families Can't Be Wrong",
             "subheading": "Power Your Home With Luminous Batteries · 36–60 Month Warranty · BIS Certified Tubular Technology",
             "button_label": "Explore Batteries",
@@ -45,6 +47,7 @@
         "slide3": {
           "type": "slide",
           "settings": {
+            "image": "",
             "heading": "From Homes to Commercial, Luminous Has You Covered",
             "subheading": "Home Inverters · High Capacity Inverters · Batteries · Trolleys · Accessories — All Under One Authorized Roof",
             "button_label": "Browse All Categories",
@@ -76,35 +79,35 @@
         "tb1": {
           "type": "column",
           "settings": {
-            "title": "Authorized Luminous Dealer",
-            "text": "<p>Officially authorized by Luminous Power Technologies to sell their full product range online across India.</p>"
+            "title": "Authorized Dealer",
+            "text": "<p>Direct tie-up with Luminous Power Technologies. No middlemen, no fakes.</p>"
           }
         },
         "tb2": {
           "type": "column",
           "settings": {
-            "title": "Pan-India Warranty",
-            "text": "<p>Full manufacturer warranty serviced through Luminous's nationwide network of 500+ authorized service centers.</p>"
+            "title": "Full Warranty",
+            "text": "<p>500+ Luminous service centers across India. Claim from any city.</p>"
           }
         },
         "tb3": {
           "type": "column",
           "settings": {
-            "title": "100% Genuine Products",
-            "text": "<p>Every product dispatched directly from our authorized store with the original Luminous factory seal and warranty card.</p>"
+            "title": "100% Genuine",
+            "text": "<p>Every product sealed at factory. Authentic warranty card included.</p>"
           }
         },
         "tb4": {
           "type": "column",
           "settings": {
-            "title": "Secure Checkout",
-            "text": "<p>SSL-encrypted checkout with Razorpay. Pay via UPI, cards, netbanking, wallets, or EMI — all payments fully secured.</p>"
+            "title": "Secure Payment",
+            "text": "<p>Razorpay-protected checkout. UPI, cards, netbanking, EMI supported.</p>"
           }
         }
       },
       "block_order": ["tb1", "tb2", "tb3", "tb4"],
       "settings": {
-        "title": "Why India Trusts Garg Electronics",
+        "title": "Why Shop With Us",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
@@ -163,7 +166,7 @@
       "settings": {
         "title": "Shop by Category",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "scheme-1",
         "swipe_on_mobile": true,
@@ -188,7 +191,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
