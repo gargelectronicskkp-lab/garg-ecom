@@ -44,6 +44,55 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "trust-strip": {
+      "type": "multicolumn",
+      "blocks": {
+        "tb1": {
+          "type": "column",
+          "settings": {
+            "title": "Authorized Luminous Dealer",
+            "text": "<p>Officially authorized by Luminous Power Technologies to sell their full product range online across India.</p>"
+          }
+        },
+        "tb2": {
+          "type": "column",
+          "settings": {
+            "title": "Pan-India Warranty",
+            "text": "<p>Full manufacturer warranty serviced through Luminous's nationwide network of 500+ authorized service centers.</p>"
+          }
+        },
+        "tb3": {
+          "type": "column",
+          "settings": {
+            "title": "100% Genuine Products",
+            "text": "<p>Every product dispatched directly from our authorized store with the original Luminous factory seal and warranty card.</p>"
+          }
+        },
+        "tb4": {
+          "type": "column",
+          "settings": {
+            "title": "Secure Checkout",
+            "text": "<p>SSL-encrypted checkout with Razorpay. Pay via UPI, cards, netbanking, wallets, or EMI — all payments fully secured.</p>"
+          }
+        }
+      },
+      "block_order": ["tb1", "tb2", "tb3", "tb4"],
+      "settings": {
+        "title": "Why India Trusts Garg Electronics",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
@@ -75,6 +124,7 @@
   },
   "order": [
     "slideshow",
+    "trust-strip",
     "featured-collection-0"
   ]
 }
