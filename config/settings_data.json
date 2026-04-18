@@ -13,64 +13,64 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#eff0f5",
+          "background": "#F8FAFC",
           "background_gradient": "",
-          "text": "#0e1b4d",
-          "button": "#4770db",
-          "button_label": "#eff0f5",
-          "secondary_button_label": "#0e1b4d",
-          "shadow": "#0e1b4d"
+          "text": "#0A2540",
+          "button": "#2D7FF9",
+          "button_label": "#FFFFFF",
+          "secondary_button_label": "#0A2540",
+          "shadow": "#0A2540"
         }
       },
       "scheme-2": {
         "settings": {
           "background": "#FFFFFF",
           "background_gradient": "",
-          "text": "#0e1b4d",
-          "button": "#0e1b4d",
+          "text": "#0A2540",
+          "button": "#0A2540",
           "button_label": "#FFFFFF",
-          "secondary_button_label": "#0e1b4d",
-          "shadow": "#0e1b4d"
+          "secondary_button_label": "#0A2540",
+          "shadow": "#0A2540"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#0e1b4d",
+          "background": "#0A2540",
           "background_gradient": "",
           "text": "#FFFFFF",
-          "button": "#FFFFFF",
-          "button_label": "#0e1b4d",
+          "button": "#2D7FF9",
+          "button_label": "#FFFFFF",
           "secondary_button_label": "#FFFFFF",
-          "shadow": "#0e1b4d"
+          "shadow": "#000000"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#4770db",
+          "background": "#2D7FF9",
           "background_gradient": "",
           "text": "#FFFFFF",
           "button": "#FFFFFF",
-          "button_label": "#4770db",
+          "button_label": "#2D7FF9",
           "secondary_button_label": "#FFFFFF",
-          "shadow": "#0e1b4d"
+          "shadow": "#0A2540"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#E32402",
+          "background": "#10B981",
           "background_gradient": "",
           "text": "#FFFFFF",
           "button": "#FFFFFF",
-          "button_label": "#E32402",
+          "button_label": "#10B981",
           "secondary_button_label": "#FFFFFF",
-          "shadow": "#0e1b4d"
+          "shadow": "#0A2540"
         }
       }
     },
-    "type_header_font": "archivo_n7",
-    "heading_scale": 110,
-    "type_body_font": "questrial_n4",
-    "body_scale": 105,
+    "type_header_font": "inter_n7",
+    "heading_scale": 115,
+    "type_body_font": "inter_n4",
+    "body_scale": 110,
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 28,
@@ -162,8 +162,8 @@
     "badge_corner_radius": 0,
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-1",
-    "brand_headline": "",
-    "brand_description": "<p></p>",
+    "brand_headline": "Authorized Luminous Dealer",
+    "brand_description": "<p>Garg Electronics is India's trusted authorized dealer for Luminous Power Technologies. We deliver 100% genuine inverters, batteries, and power solutions across India with full manufacturer warranty and pan-India service support.</p>",
     "brand_image_width": 100,
     "social_twitter_link": "",
     "social_facebook_link": "",
