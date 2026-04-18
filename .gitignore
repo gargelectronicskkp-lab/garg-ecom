@@ -29,6 +29,7 @@ build/
 # Backup files
 *.bak
 *.backup
+*.backup-*.csv
 
 # Local secrets / notes (never commit)
 .shopify-local-notes
