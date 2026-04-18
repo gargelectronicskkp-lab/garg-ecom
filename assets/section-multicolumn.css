@@ -231,18 +231,3 @@
     display: list-item;
   }
 }
-
-/* Garg Electronics — center Trust Strip heading */
-#shopify-section-trust-strip .multicolumn .title-wrapper-with-link,
-#shopify-section-trust-strip .title-wrapper-with-link.multicolumn__title {
-  justify-content: center !important;
-  text-align: center !important;
-}
-
-#shopify-section-trust-strip h2.title,
-#shopify-section-trust-strip .multicolumn__title h2 {
-  text-align: center !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}

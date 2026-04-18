@@ -74,52 +74,12 @@
       }
     },
     "trust-strip": {
-      "type": "multicolumn",
-      "blocks": {
-        "tb1": {
-          "type": "column",
-          "settings": {
-            "title": "🏅 Authorized Dealer",
-            "text": "<p>Direct tie-up with Luminous Power Technologies. No middlemen, no fakes.</p>"
-          }
-        },
-        "tb2": {
-          "type": "column",
-          "settings": {
-            "title": "🇮🇳 Full Warranty",
-            "text": "<p>500+ Luminous service centers across India. Claim from any city.</p>"
-          }
-        },
-        "tb3": {
-          "type": "column",
-          "settings": {
-            "title": "✅ 100% Genuine",
-            "text": "<p>Every product sealed at factory. Authentic warranty card included.</p>"
-          }
-        },
-        "tb4": {
-          "type": "column",
-          "settings": {
-            "title": "🔒 Secure Payment",
-            "text": "<p>Razorpay-protected checkout. UPI, cards, netbanking, EMI supported.</p>"
-          }
-        }
-      },
-      "block_order": ["tb1", "tb2", "tb3", "tb4"],
+      "type": "custom-liquid",
       "settings": {
-        "title": "Why Shop With Us",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "custom_liquid": "<style>\n.ge-trust-strip { padding: 80px 20px; background: #FFFFFF; font-family: inherit; }\n.ge-trust-strip__inner { max-width: 1200px; margin: 0 auto; }\n.ge-trust-strip__heading { text-align: center; font-size: clamp(28px, 4vw, 44px); font-weight: 700; color: #0A2540; margin: 0 0 50px; letter-spacing: -0.02em; }\n.ge-trust-strip__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }\n.ge-trust-strip__item { text-align: center; padding: 0 10px; }\n.ge-trust-strip__icon { font-size: 48px; line-height: 1; margin-bottom: 16px; display: block; }\n.ge-trust-strip__title { font-size: 18px; font-weight: 700; color: #0A2540; margin: 0 0 10px; letter-spacing: -0.01em; }\n.ge-trust-strip__text { font-size: 15px; line-height: 1.6; color: #475569; margin: 0; }\n@media (max-width: 900px) {\n  .ge-trust-strip__grid { grid-template-columns: repeat(2, 1fr); gap: 32px 24px; }\n  .ge-trust-strip { padding: 60px 16px; }\n  .ge-trust-strip__heading { margin-bottom: 36px; }\n}\n@media (max-width: 480px) {\n  .ge-trust-strip__grid { grid-template-columns: 1fr; gap: 28px; }\n}\n</style>\n\n<section class='ge-trust-strip'>\n  <div class='ge-trust-strip__inner'>\n    <h2 class='ge-trust-strip__heading'>Why Shop With Us</h2>\n    <div class='ge-trust-strip__grid'>\n      <div class='ge-trust-strip__item'>\n        <span class='ge-trust-strip__icon'>🏅</span>\n        <h3 class='ge-trust-strip__title'>Authorized Dealer</h3>\n        <p class='ge-trust-strip__text'>Direct tie-up with Luminous Power Technologies. No middlemen, no fakes.</p>\n      </div>\n      <div class='ge-trust-strip__item'>\n        <span class='ge-trust-strip__icon'>🇮🇳</span>\n        <h3 class='ge-trust-strip__title'>Full Warranty</h3>\n        <p class='ge-trust-strip__text'>500+ Luminous service centers across India. Claim from any city.</p>\n      </div>\n      <div class='ge-trust-strip__item'>\n        <span class='ge-trust-strip__icon'>✅</span>\n        <h3 class='ge-trust-strip__title'>100% Genuine</h3>\n        <p class='ge-trust-strip__text'>Every product sealed at factory. Authentic warranty card included.</p>\n      </div>\n      <div class='ge-trust-strip__item'>\n        <span class='ge-trust-strip__icon'>🔒</span>\n        <h3 class='ge-trust-strip__title'>Secure Payment</h3>\n        <p class='ge-trust-strip__text'>Razorpay-protected checkout. UPI, cards, netbanking, EMI supported.</p>\n      </div>\n    </div>\n  </div>\n</section>",
         "color_scheme": "scheme-2",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "category-tiles": {
