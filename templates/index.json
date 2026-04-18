@@ -79,28 +79,28 @@
         "tb1": {
           "type": "column",
           "settings": {
-            "title": "Authorized Dealer",
+            "title": "🏅 Authorized Dealer",
             "text": "<p>Direct tie-up with Luminous Power Technologies. No middlemen, no fakes.</p>"
           }
         },
         "tb2": {
           "type": "column",
           "settings": {
-            "title": "Full Warranty",
+            "title": "🇮🇳 Full Warranty",
             "text": "<p>500+ Luminous service centers across India. Claim from any city.</p>"
           }
         },
         "tb3": {
           "type": "column",
           "settings": {
-            "title": "100% Genuine",
+            "title": "✅ 100% Genuine",
             "text": "<p>Every product sealed at factory. Authentic warranty card included.</p>"
           }
         },
         "tb4": {
           "type": "column",
           "settings": {
-            "title": "Secure Payment",
+            "title": "🔒 Secure Payment",
             "text": "<p>Razorpay-protected checkout. UPI, cards, netbanking, EMI supported.</p>"
           }
         }
