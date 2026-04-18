@@ -93,16 +93,69 @@
         "padding_bottom": 60
       }
     },
+    "category-tiles": {
+      "type": "collection-list",
+      "blocks": {
+        "ct1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-inverters"
+          }
+        },
+        "ct2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "high-capacity-inverters"
+          }
+        },
+        "ct3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "inverter-batteries"
+          }
+        },
+        "ct4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "red-charge-pro"
+          }
+        },
+        "ct5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "inverlast"
+          }
+        },
+        "ct6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trolleys-accessories"
+          }
+        }
+      },
+      "block_order": ["ct1", "ct2", "ct3", "ct4", "ct5", "ct6"],
+      "settings": {
+        "title": "Shop by Category",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "swipe_on_mobile": true,
+        "columns_mobile": "2",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Best Selling Home Inverters",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 4,
+        "collection": "home-inverters",
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
@@ -125,6 +178,7 @@
   "order": [
     "slideshow",
     "trust-strip",
+    "category-tiles",
     "featured-collection-0"
   ]
 }
